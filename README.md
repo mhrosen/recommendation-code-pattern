@@ -29,7 +29,7 @@ The intended audience is data scientists and developers interested in building, 
 `cd` into the folder you wish to store this code pattern. In the terminal type:
     ```git clone https://github.com/IBM/)<my repo> ```
  ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
- ## 3. Set up Watson Studio 
+ ## 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
    a. Select Region and a pricing plan
    b. Press “Create” on the right panel
  ## 4. Establish Credentials
