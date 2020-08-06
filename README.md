@@ -75,21 +75,25 @@ The intended audience is data scientists and developers interested in building, 
   
   c. Choose a name, description and Define storage
  (under Define storage click “Add” and navigate to existing tab then “Select”)
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image14.jpeg)
 
   d. Select “Create”
 
 # 8. Load Jupyter Notebooks into Watson Studio Project
   a. On the [Cloud Pak for Data homepage](https://dataplatform.cloud.ibm.com/home2?context=cpdaas), under Overview and Recent Projects select the project you just created
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image14.jpeg)
-
-b. Click “Add to Project”
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image15.jpeg)
 
-c. Select “Notebook”
+
+  b. Click “Add to Project”
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image16.jpeg)
 
-Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
+
+  c. Select “Notebook”
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image17.jpeg)
+
+
+  d. Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
 
 <p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p>
 
@@ -98,11 +102,17 @@ Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb f
 
 # 10. Run the HOTEL_recommender.ipynb
   a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
-
-  b. Click on the pencil in the upper right toolbar to edit
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
 
+
+  b. Click on the pencil in the upper right toolbar to edit
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
 
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image21.jpeg)
+  c. To run Jupyter Notebook, press shift-enter on each tab
+  
+  # 11. When you are finished with the hotel notebook, try the car recommendation service as well by repeating step 10
+  
+  # 12. Further instructions will be available within each Notebook
+  
+  ## License
+  This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
