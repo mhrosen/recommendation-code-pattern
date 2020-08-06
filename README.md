@@ -37,18 +37,17 @@ The intended audience is data scientists and developers interested in building, 
    ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image2.jpeg)
 
    b. Click in the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) upper left and “API keys”
-   
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image4.jpeg)
    
    c. Click “Create an API Key”, give it a name and description
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image4.jpeg)
-    
-    d. Download the API key JSON and store it in the ```data-generator/src/recommender/``` folder for safe keeping
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image5.jpeg)
+    
+   d. Download the API key JSON and store it in the ```data-generator/src/recommender/``` folder for safe keeping
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image6.jpeg)
 
  ## 5. Launch your service
    a. Navigate to the IBM Dashboard by clicking the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) in the upper left
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image6.jpeg)
-  
+
   b. Open the Services tab, search the name of your Watson Studio service, and click on it
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image7.jpeg)
   
