@@ -140,8 +140,7 @@ The intended audience is data scientists and developers interested in building, 
 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
 
-<p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p>
-
+<center><p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p></center>
 
 
 # 9. Go back thru step 8 to likewise add CAR_recommender.ipynb as a new notebook to your project
