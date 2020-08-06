@@ -92,8 +92,13 @@ Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb f
 <p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p>
 
 
+# 9. Go back thru step 8 to likewise add CAR_recommender.ipynb as a new notebook to your project
+
+# 10. Run the HOTEL_recommender.ipynb
+  a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
 
+  b. Click on the pencil in the upper right toolbar to edit
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
