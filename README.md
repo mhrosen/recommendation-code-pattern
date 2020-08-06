@@ -27,7 +27,7 @@ The intended audience is data scientists and developers interested in building, 
 # Steps
  ## 1. Clone the repo locally
 `cd` into the folder you wish to store this code pattern. In the terminal type:
-    ```git clone https://github.com/IBM/)<my repo> ```
+        ```git clone https://github.com/IBM/)<my repo> ```
  ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
  ## 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
    a. Select Region and a pricing plan
@@ -86,16 +86,16 @@ The intended audience is data scientists and developers interested in building, 
 
 
   b. Click “Add to Project”
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
-
-
-  c. Select “Notebook”
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image17.jpeg)
 
 
-  d. Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
+  c. Select “Notebook”
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
 
+  d. Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from 
+  ```./data-generator/src/recommender/``` folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
 
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
 <p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p>
 
 
@@ -103,7 +103,7 @@ The intended audience is data scientists and developers interested in building, 
 
 # 10. Run the HOTEL_recommender.ipynb
   a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
+
 
 
   b. Click on the pencil in the upper right toolbar to edit
