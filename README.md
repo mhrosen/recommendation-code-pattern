@@ -34,6 +34,6 @@ The intended audience is data scientists and developers interested in building, 
     b. Press “Create” on the right panel
  ## 4. Establish Credentials
     a. Click “Manage”, “Access (IAM)” in the upper panel
-   ![alt text] (https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image2.jpeg)
+   ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image2.jpeg)
 
 
