@@ -79,7 +79,7 @@ The intended audience is data scientists and developers interested in building, 
 
   d. Select “Create”
 
-# 8. Load Jupyter Notebooks into Watson Studio Project
+# 8. Load Jupyter Notebooks into [Watson Studio Project](https://cloud.ibm.com/catalog/services/watson-studio)
   a. On the [Cloud Pak for Data homepage](https://dataplatform.cloud.ibm.com/home2?context=cpdaas), under Overview and Recent Projects select the project you just created
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image15.jpeg)
 
