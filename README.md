@@ -86,7 +86,7 @@ b. Click “Add to Project”
 c. Select “Notebook”
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image16.jpeg)
 
-Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select _Spark 2.3 & Python 3.6 Driver_. Click Create
+Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select __Spark 2.3 & Python 3.6 Driver__. Click Create
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image17.jpeg)
 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
