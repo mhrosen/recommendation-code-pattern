@@ -30,10 +30,11 @@ The intended audience is data scientists and developers interested in building, 
     ```git clone https://github.com/IBM/)<my repo> ```
  ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
  ## 3. Set up Watson Studio 
-    a. Select Region and a pricing plan
-    b. Press “Create” on the right panel
+   a. Select Region and a pricing plan
+   b. Press “Create” on the right panel
  ## 4. Establish Credentials
-    a. Click “Manage”, “Access (IAM)” in the upper panel
+   a. Click “Manage”, “Access (IAM)” in the upper panel
    ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image2.jpeg)
 
-
+   b. Click in the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) upper left and “API keys”
+   
