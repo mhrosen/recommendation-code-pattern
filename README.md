@@ -47,32 +47,35 @@ The intended audience is data scientists and developers interested in building, 
 
  ## 5. Launch your service
    a. Navigate to the IBM Dashboard by clicking the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) in the upper left
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image7.jpeg)
 
   b. Open the Services tab, search the name of your Watson Studio service, and click on it
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image7.jpeg)
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image8.jpeg)
+
   
   c. Click on Access Watson Studio. This should launch IBM Cloud Pak for Data
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image8.jpeg)
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image9.jpeg)
 
 # 6. Choose a Cloud Object Storage 
   a. Click “Create a service”
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image9.jpeg)
-  
-  b. Search Cloud Object Storage
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image10.jpeg)
   
-  c. Choose a plan, set “Select a resource group” to default, and click “Create”
+  b. Search Cloud Object Storage
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image11.jpeg)
+  
+  c. Choose a plan, set “Select a resource group” to default, and click “Create”
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image12.jpeg)
 
 # 7. Create a project
   a. Navigate to [the home page](https://dataplatform.cloud.ibm.com/home2?context=cpdaas) by clicking “IBM Cloud Pak for Data” in the upper-left corner. On the page select “Create a project”
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image12.jpeg)
+
   
   b. Select “Create an empty project”
+  ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image13.jpeg)
   
   c. Choose a name, description and Define storage
  (under Define storage click “Add” and navigate to existing tab then “Select”)
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image13.jpeg)
+
   d. Select “Create”
 
 # 8. Load Jupyter Notebooks into Watson Studio Project
