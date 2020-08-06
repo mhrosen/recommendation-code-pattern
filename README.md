@@ -88,7 +88,7 @@ c. Select “Notebook”
 
 Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from ./data-generator/src/recommender/ folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image17.jpeg)
-
+<p align="center"; style="color:#9E9E9E";><****Warning:  selections other than Spark 2.3 & Python 3.6 will not work.****</p>
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
