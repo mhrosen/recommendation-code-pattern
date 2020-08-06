@@ -156,7 +156,7 @@ The intended audience is data scientists and developers interested in building, 
 
   b. Click on the pencil in the upper right toolbar to edit
   
-![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
+
 
 
   c. To run Jupyter Notebook, press shift-enter on each tab
