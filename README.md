@@ -16,4 +16,23 @@ The intended audience is data scientists and developers interested in building, 
 # Architecture
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-5-20%20at%209.28%20PM.jpeg)
 
+1. The functionality of the booking site that the User interacts with is handled by NodeJS service where the API calls are initialized.
+2. The NodeJS app gets Watson Studio Machine Learning to compute the user’s preference.
+3. Watson Studio gets previous transaction data on the individual and other users from PostgresSQL
+4. PostgresSQL grabs many unstructured data points from the Data Object Storage service
+5. Jupyter Notebook gets the data into CSV format and processes it into usable format
+6. SparkML parallelizes data computation jobs with machine learning processes to find the customer’s cluster
+7. The recommendation system gets representative recommendations for the customer from their cluster pairing
+
+# Steps
+ ## 1. Clone the repo locally
+`cd` into the folder you wish to store this code pattern. In the terminal type:
+    ```git clone https://github.com/IBM/)<my repo> ```
+ ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
+ ## 3. Set up Watson Studio 
+    a. Select Region and a pricing plan
+    b. Press “Create” on the right panel
+ ## 4. Establish Credentials
+    a. Click “Manage”, “Access (IAM)” in the upper panel
+
 
