@@ -14,7 +14,6 @@ When you have completed this code pattern, you will understand how to:
 The intended audience is data scientists and developers interested in building, deploying and testing machine learning models from a Jupyter notebook with Watson Machine Learning and wrapping it in a node.js application.
 
 # Architecture
-
-
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-5-20%20at%209.28%20PM.jpeg)
 
 
