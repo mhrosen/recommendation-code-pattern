@@ -28,92 +28,146 @@ The intended audience is data scientists and developers interested in building, 
  ## 1. Clone the repo locally
 `cd` into the folder you wish to store this code pattern. In the terminal type:
         ```git clone https://github.com/IBM/)<my repo> ```
+        
  ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
+ 
  ## 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
+ 
    a. Select Region and a pricing plan
    
+   
    b. Press “Create” on the right panel
+   
  ## 4. Establish Credentials
+ 
    a. Click “Manage”, “Access (IAM)” in the upper panel
+   
    ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image2.jpeg)
+   
 
    b. Click in the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) upper left and “API keys”
+   
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image4.jpeg)
+
    
    c. Click “Create an API Key”, give it a name and description
+   
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image5.jpeg)
+
     
    d. Download the API key JSON and store it in the ```data-generator/src/recommender/``` folder for safe keeping
+   
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image6.jpeg)
 
+
  ## 5. Launch your service
+ 
    a. Navigate to the IBM Dashboard by clicking the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) in the upper left
+
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image7.jpeg)
 
+
   b. Open the Services tab, search the name of your Watson Studio service, and click on it
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image8.jpeg)
 
   
+  
   c. Click on Access Watson Studio. This should launch IBM Cloud Pak for Data
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image9.jpeg)
 
+
 # 6. Choose a Cloud Object Storage 
+
   a. Click “Create a service”
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image10.jpeg)
+
   
   b. Search Cloud Object Storage
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image11.jpeg)
+
   
   c. Choose a plan, set “Select a resource group” to default, and click “Create”
+  
   ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image13.jpeg)
+  
 
 # 7. Create a project
+
   a. Navigate to [the home page](https://dataplatform.cloud.ibm.com/home2?context=cpdaas) by clicking “IBM Cloud Pak for Data” in the upper-left corner. On the page select “Create a project”
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image14.jpeg)
+
   
   b. Select “Create an empty project”
+  
 
   
   c. Choose a name, description and Define storage
  (under Define storage click “Add” and navigate to existing tab then “Select”)
+ 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image15.jpeg)
 
+
   d. Select “Create”
+  
 
 # 8. Load Jupyter Notebooks into [Watson Studio Project](https://cloud.ibm.com/catalog/services/watson-studio)
+
   a. On the [Cloud Pak for Data homepage](https://dataplatform.cloud.ibm.com/home2?context=cpdaas), under Overview and Recent Projects select the project you just created
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image16.jpeg)
 
 
+
   b. Click “Add to Project”
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image17.jpeg)
 
 
+
   c. Select “Notebook”
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image18.jpeg)
+
 
   d. Click the “From file” tab, Drag and drop or upload HOTEL_recommender.ipynb from 
   ```./data-generator/src/recommender/``` folder. Select <ins>Spark 2.3 & Python 3.6 Driver</ins>. Click Create
 
+
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image19.jpeg)
+
 <p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p>
+
 
 
 # 9. Go back thru step 8 to likewise add CAR_recommender.ipynb as a new notebook to your project
 
+
 # 10. Run the HOTEL_recommender.ipynb
+
   a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
 
 
 
   b. Click on the pencil in the upper right toolbar to edit
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
+
 
   c. To run Jupyter Notebook, press shift-enter on each tab
   
+  
   # 11. When you are finished with the hotel notebook, try the car recommendation service as well by repeating step 10
+  
   
   # 12. Further instructions will be available within each Notebook
   
+  
   ## License
+  
   This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
