@@ -31,6 +31,7 @@ The intended audience is data scientists and developers interested in building, 
  ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
  ## 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
    a. Select Region and a pricing plan
+   
    b. Press “Create” on the right panel
  ## 4. Establish Credentials
    a. Click “Manage”, “Access (IAM)” in the upper panel
