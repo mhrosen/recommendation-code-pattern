@@ -1,23 +1,23 @@
-# Create a Recommendation System Using Watson Studio and Connecting to NodeJS 
+# Create a Recommendation System Using Watson Studio and Connecting to Python Service
 IBM Developer code pattern, not yet published on [developer.ibm.com](https://developer.ibm.com/). IBM owns this in-process publication, all of the code is OpenSource
 
-In this code pattern, fake travel transaction data for car rentals and hotels are used to build recommendation engines with SparkML and Watson Machine Learning. The model is used to create a list of recommendations for customers based on how soon before a trip they plan to book a trip and their hotel or car rental preferences on the IBM demo travel application Bee Travels. The hotel and car rental data is called from a PostgresSQL database as a data asset on Watson Studio. The code pattern incorporates the recommendation service into a node.js application, containerizes the application with Docker, and deploys the Docker image onto Kubernetes. For more information about how the data is generated or how this microservice is part of the full Bee Travels platform, please visit the [Bee Travels Github](https://github.com/bee-travels/). 
+In this code pattern, fake travel transaction data for car rentals and hotels are used to build recommendation engines with SparkML and Watson Machine Learning. The model is used to create a list of recommendations for customers based on how soon before a trip they plan to book a trip and their hotel or car rental preferences on the IBM demo travel application Bee Travels. The hotel and car rental data is called from a PostgresSQL database as a data asset on Watson Studio. The code pattern incorporates the recommendation service into a Python application, containerizes the application with Docker, and deploys the Docker image onto Kubernetes. For more information about how the data is generated or how this microservice is part of the full Bee Travels platform, please visit the [Bee Travels Github](https://github.com/bee-travels/). 
 
 When you have completed this code pattern, you will understand how to:
     - Navigate IBM Cloud Pak for Data
     - Use Jupyter Notebooks in IBM Watson Studio
     - Gather data from PostgresSQL database to use in Watson Machine Learning Notebook
     - Build a k-means recommendation model with SparkML and Watson Machine Learning to provide hotel or car rental collaborative recommendations for travelers based on travel dates and priorities similar to previous customers that made transactions
-    - Upload node.js docker image to Docker Hub
+    - Upload Python docker image to Docker Hub
     - Deploy the Docker image on Kubernetes
     
-The intended audience is data scientists and developers interested in building, deploying and testing machine learning models from a Jupyter notebook with Watson Machine Learning and wrapping it in a node.js application.
+The intended audience is data scientists and developers interested in building, deploying and testing machine learning models from a Jupyter notebook with Watson Machine Learning and wrapping it in a Python application.
 
 # Architecture
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image1.jpeg)
 
-1. The functionality of the booking site that the User interacts with is handled by NodeJS service where the API calls are initialized.
-2. The NodeJS app gets Watson Studio Machine Learning to compute the user’s preference.
+1. The functionality of the booking site that the User interacts with is handled by Python service where the API calls are initialized.
+2. The Python app gets Watson Studio Machine Learning to compute the user’s preference.
 3. Watson Studio gets previous transaction data on the individual and other users from PostgresSQL
 4. PostgresSQL grabs many unstructured data points from the Data Object Storage service
 5. Jupyter Notebook gets the data into CSV format and processes it into usable format
@@ -149,11 +149,14 @@ The intended audience is data scientists and developers interested in building, 
 # 10. Run the HOTEL_recommender.ipynb
 
   a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
+  
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image20.jpeg)
 
 
 
   b. Click on the pencil in the upper right toolbar to edit
+![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image21.jpeg)
+
   
 
 
