@@ -25,20 +25,20 @@ The intended audience is data scientists and developers interested in building, 
 7. The recommendation system gets representative recommendations for the customer from their cluster pairing
 
 # Steps
- ## 1. Clone the repo locally
+ #### 1. Clone the repo locally
 `cd` into the folder you wish to store this code pattern. In the terminal type:
         ```git clone https://github.com/IBM/)<my repo> ```
         
- ## 2. Go to [cloud.ibm.com](cloud.ibm.com)
+ #### 2. Go to [cloud.ibm.com](cloud.ibm.com)
  
- ## 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
+ #### 3. Set up [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
  
    a. Select Region and a pricing plan
    
    
    b. Press “Create” on the right panel
    
- ## 4. Establish Credentials
+ #### 4. Establish Credentials
  
    a. Click “Manage”, “Access (IAM)” in the upper panel
    
@@ -60,7 +60,7 @@ The intended audience is data scientists and developers interested in building, 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image6.jpeg)
 
 
- ## 5. Launch your service
+ #### 5. Launch your service
  
    a. Navigate to the IBM Dashboard by clicking the ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image%208-2-20%20at%2011.05%20PM.jpeg) in the upper left
 
@@ -78,7 +78,7 @@ The intended audience is data scientists and developers interested in building, 
 ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image9.jpeg)
 
 
-# 6. Choose a Cloud Object Storage 
+#### 6. Choose a Cloud Object Storage 
 
   a. Click “Create a service”
   
@@ -95,7 +95,7 @@ The intended audience is data scientists and developers interested in building, 
   ![alt text](https://github.com/mhrosen/recommendation-code-pattern/blob/master/Images-for-ReadMe/Image13.jpeg)
   
 
-# 7. Create a project
+#### 7. Create a project
 
   a. Navigate to [the home page](https://dataplatform.cloud.ibm.com/home2?context=cpdaas) by clicking “IBM Cloud Pak for Data” in the upper-left corner. On the page select “Create a project”
   
@@ -115,7 +115,7 @@ The intended audience is data scientists and developers interested in building, 
   d. Select “Create”
   
 
-# 8. Load Jupyter Notebooks into [Watson Studio Project](https://cloud.ibm.com/catalog/services/watson-studio)
+#### 8. Load Jupyter Notebooks into [Watson Studio Project](https://cloud.ibm.com/catalog/services/watson-studio)
 
   a. On the [Cloud Pak for Data homepage](https://dataplatform.cloud.ibm.com/home2?context=cpdaas), under Overview and Recent Projects select the project you just created
   
@@ -143,10 +143,10 @@ The intended audience is data scientists and developers interested in building, 
 <center><p><b>****Warning:</b>  selections other than Spark <ins><b>2.3</b></ins> & Python 3.6 will not work.****</p></center>
 
 
-# 9. Go back thru step 8 to likewise add CAR_recommender.ipynb as a new notebook to your project
+#### 9. Go back thru step 8 to likewise add CAR_recommender.ipynb as a new notebook to your project
 
 
-# 10. Run the HOTEL_recommender.ipynb
+#### 10. Run the HOTEL_recommender.ipynb
 
   a. Click on your project’s title on the top left of the page, select the assets tab, and open the notebook
   
@@ -164,10 +164,10 @@ The intended audience is data scientists and developers interested in building, 
   c. To run Jupyter Notebook, press shift-enter on each tab
   
   
-  # 11. When you are finished with the hotel notebook, try the car recommendation service as well by repeating step 10
+  #### 11. When you are finished with the hotel notebook, try the car recommendation service as well by repeating step 10
   
   
-  # 12. Further instructions will be available within each Notebook
+  #### 12. Further instructions will be available within each Notebook
   
   
   ## License
